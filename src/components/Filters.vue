@@ -8,7 +8,7 @@
         <div class="input-group mx-2">
           <input type="text" v-model="searchQuery" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="search by name">
           <span class="input-group-text" @click="$emit('searchQueryChanged', searchQuery)">
-            <img class="search-icon" src="https://www.clipartmax.com/png/small/15-150759_search-icon-search-icon-png-blue.png" alt="Search Icon - Search Icon Png Blue @clipartmax.com">
+            <img class="search-icon" src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="Search Icon - Search Icon Png Blue @clipartmax.com">
           </span>
         </div>
         <button @click="$emit('sortByPrice', !sortByPrice)" class="btn btn-success" title="sort by price">Sort</button>
